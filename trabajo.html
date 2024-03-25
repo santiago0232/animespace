@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Anime</title>
+    <style>
+        /* Estilos para el diseño */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .anime {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .anime-item {
+            width: 30%;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .anime-item img {
+            width: 100%;
+            height: auto;
+        }
+        .anime-item h3 {
+            text-align: center;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anime Space</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Anime Reciente</a></li>
+            <li><a href="#">Top Anime</a></li>
+            <li><a href="#">Géneros</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Anime Reciente</h2>
+        <div class="anime">
+            <div class="anime-item">
+                <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,width=480,height=720,fit=contain,quality=85/catalog/crunchyroll/e4e80c83c792d81c138e320874dbdffc.jpe" alt="Anime 1">
+                <h3>jujutso kaisen</h3>
+            </div>
+            <div class="anime-item">
+                <img src="https://static.wixstatic.com/media/d6758b_6c7d25509d0e44e38dec0532c287c0ad~mv2.jpeg/v1/fill/w_480,h_720,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d6758b_6c7d25509d0e44e38dec0532c287c0ad~mv2.jpeg" alt="Anime 2">
+                <h3>undead unluck</h3>
+            </div>
+            <div class="anime-item">
+                <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,width=480,height=720,fit=contain,quality=85/catalog/crunchyroll/095217fdb4f228410df09b18f151be28.jpe" alt="Anime 3">
+                <h3>SPY X FAMILY</h3>
+            </div>
+        </div>
+    </section>
+    <section>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/m_96GeCagjw?si=oeZM-V_ui0k1WQbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/q6Gon4Zmr8k?si=PGQJ8Q-dnOkFO1WH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <audio src=""></audio>
+        <h2>Top Anime del momento</h2>
+        <ul>
+            <li><a href="#">Top 1: Shingeki no Kyojin</a></li>
+            <li><a href="#">Top 2: Tokyo Revenger</a></li>
+            <li><a href="#">Top 3: SPY X FAMILY</a></li>
+            <li><a href="#">Top 4: Dr.Stone</a></li>
+            <li><a href="#">Top 5: Mashle</a></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Anime Recomendado</h2>
+        <p>Aquí hay algunos animes recomendados:</p>
+        <ul>
+            <li>Naruto</li>
+            <li>Attack on Titan</li>
+            <li>One Piece</li>
+            <li>Death Note</li>
+            <li>Fullmetal Alchemist: Brotherhood</li>
+            <li>Black Clover</li>
+            <li>Kimetsu no Yaiba</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o comentario? ¡Contáctanos!</p>
+        <form action="mailto:tuemail@example.com" method="post" enctype="text/plain">
+            Nombre:<br>
+            <input type="text" name="nombre" required><br>
+            Correo electrónico:<br>
+            <input type="email" name="correo" required><br>
+            Mensaje:<br>
+            <textarea name="mensaje" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Página de Anime</p>
+    </footer>
+</body>
+</html>
